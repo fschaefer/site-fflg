@@ -19,6 +19,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-luci-admin \
 	gluon-luci-autoupdater \
+	gluon-luci-private-wifi \
 	gluon-luci-portconfig \
 	gluon-luci-wifi-config \
 	gluon-next-node \
@@ -36,7 +37,7 @@ GLUON_SITE_PACKAGES := \
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := 0.6+exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.7+exp$(shell date '+%Y%m%d')
 
 
 ##	GLUON_RELEASE
